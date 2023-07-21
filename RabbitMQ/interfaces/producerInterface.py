@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+from typing import Any
 
 class producerInterface():
     def __init__(self, routing_key : str, pub_delay : int, message_producer : Any) -> None:
